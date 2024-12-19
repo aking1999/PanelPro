@@ -1,0 +1,11 @@
+.logo {
+  font-size: 1.4em;
+}
+
+.logo-left {
+  padding: 0.1875rem 0 0.1875rem 1rem;
+}
+
+.logo-right {
+  font-weight: bold;
+}

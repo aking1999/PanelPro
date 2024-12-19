@@ -1,5 +1,12 @@
-<app-navbar></app-navbar>
-<app-sidebar></app-sidebar>
-
-<router-outlet></router-outlet>
-<button class="btn btn-primary ms-4">Cao</button>
+<app-navbar id="navbar" class="navbar navbar-dark fixed-top bg-dark" />
+<div class="container-fluid">
+  <div class="row" id="mainContent">
+    <app-sidebar
+      id="sidebar"
+      class="col-sm-3 col-md-3 col-lg-2 d-none d-sm-block sidebar"
+    />
+    <div class="col-sm-9" id="dashboard">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

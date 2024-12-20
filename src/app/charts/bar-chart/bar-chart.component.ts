@@ -22,15 +22,7 @@ export class BarChartComponent {
     {
       data: [28, 48, 40, 19, 86, 27, 90],
       label: 'Series B',
-    },
-    /*{
-      data: [18, 48, 77, 9, 100, 27, 40],
-      label: 'Series C',
-    },
-    {
-      data: [19, 48, 77, 9, 100, 27, 40],
-      label: 'Series D',
-    },*/
+    }
   ];
 
   labels: string[] = ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7'];

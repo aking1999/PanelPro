@@ -12,7 +12,6 @@ export class PieChartComponent {
   pieChartData = [
     { data: [350, 450, 120] }, // Wrap the data array inside an object
   ];
-  pieChartColors: any[];
   pieChartLabels: string[];
   pieChartOptions: ChartOptions = {
     maintainAspectRatio: false,
@@ -20,11 +19,6 @@ export class PieChartComponent {
   };
 
   constructor() {
-    this.pieChartColors = [
-      {
-        backgroundColor: ['#F7464A', '#46BFBD', '#FDB45C'],
-      },
-    ];
     this.pieChartLabels = ['XYZ', 'ABC', 'DEF'];
   }
 }

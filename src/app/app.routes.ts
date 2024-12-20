@@ -4,7 +4,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 export const routes: Routes = [
   {
     path: '',
-    component: DashboardComponent,
+    loadComponent: () =>
+      import('./dashboard/dashboard.component').then(
+        (m) => m.DashboardComponent
+      ),
     pathMatch: 'full',
   },
   {
